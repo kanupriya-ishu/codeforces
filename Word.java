@@ -5,7 +5,8 @@ public class Word {
     {
     	Scanner sc = new Scanner(System.in);
     	String s = sc.next();
-    	
+    	sc.close();
+		
     	int lower = 0;
     	int upper = 0;
     	
